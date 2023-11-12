@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            height: 900px;
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+        }
+
+        h2 {
+            text-align: center;
+            margin: 30px 0;
+            color: orangered;
+        }
+
+        .products {
+            display: flex;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+
+        }
+
+        img {
+            width: 100%;
+            vertical-align: middle;
+            border-radius: 30px;
+        }
+
+        .duoi {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .duoi p {
+            font-size: 25px;
+            color: blue;
+        }
+
+        .duoi a {
+            text-decoration: none;
+            font-size: 18px;
+            border: 1px solid black;
+            padding: 5px;
+            color: black;
+            background-color: beige;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+
+        .duoi a:hover {
+            color: white;
+            background-color: cornflowerblue;
+        }
+
+        .haha p {
+            font-size: 15px;
+            margin: 5px 0;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .hihi p {
+            font-size: 25px;
+            margin-top: 10px;
+            color: orangered;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="container">
+        <h2>ALL PRODUCTS</h2>
+        <section class="products">
+            <section class="sp1">
+                <img src="Iphone 13 pro.jpg" alt="">
+                <section class="duoi">
+                    <p>Iphone 13 Pro Max</p>
+                    <section class="hihi">
+                        <p>300$</p>
+                    </section>
+                    <section class="haha">
+                        <p>Category: Hard check</p>
+                    </section>
+                    <a href="#">View Details</a>
+                </section>
+            </section>
+
+            <section class="sp1">
+                <img src="Iphone 13 pro.jpg" alt="">
+                <section class="duoi">
+                    <p>Iphone 14 Pro Max</p>
+                    <section class="hihi">
+                        <p>30$</p>
+                    </section>
+                    <section class="haha">
+                        <p>Category: Hard check</p>
+                    </section>
+                    <a href="#">View Details</a>
+                </section>
+            </section>
+
+            <section class="sp1">
+                <img src="Iphone 13 pro.jpg" alt="">
+                <section class="duoi">
+                    <p>Iphone 15 Pro Max</p>
+                    <section class="hihi">
+                        <p>3$</p>
+                    </section>
+                    <section class="haha">
+                        <p>Category: Hard check</p>
+                    </section>
+                    <a href="#">View Details</a>
+                </section>
+            </section>
+        </section>
+    </section>
+    
+
+</body>
+
+</html>
